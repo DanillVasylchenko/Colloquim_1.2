@@ -14,7 +14,7 @@ input_number = int(input("Введіть число: "))
 print("Ваш масив: ", input_massive)
 kek = 1
 for i in input_massive:
-    if i > input_number:
+    if i < input_number:
         kek *= i
 if kek != 1:
     print("Добуток елементів : ", kek)
